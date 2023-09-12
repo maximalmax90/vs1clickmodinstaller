@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=VintageStory 1-click Mod Installer
-Exec=/usr/bin/vs1clickmodinstaller %u
+Name=VintageStory Client
+Exec=/usr/bin/vintagestory -i %u
 StartupNotify=False
 MimeType=x-scheme-handler/vintagestorymodinstall;
