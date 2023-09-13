@@ -61,7 +61,7 @@ else:
 		except Exception as _err:
 			messagebox.showwarning(title=_title,message=f"Can't get info from {_mod}:\n\n{_err}")
 		else:
-			if _modinfo['modid'] == _mod_id:
+			if _modinfo.get('modid') == _mod_id:
 				_local_vers.append(_modinfo['version'])
 				_local_mods.append(_mod)
 	if len(_local_vers) > 0:
